@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-links {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.list-link {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: last baseline;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-bottom: 0px;
+}
+
+.hero-text {
+  margin-top: 0px;
+  color: #e5e7eb;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3882f6;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 150px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.content-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  border-radius: 10px;
+  border-color: #3882f6;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.card-image-text {
+  text-align: center;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.testimonial-content {
+  width: 750px;
+}
+
+.testimonial-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.testimonial-author {
+  text-align: end;
+  color: #1f2937;
+}
+
+.sign-up {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  padding-top: 30px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  border-radius: 20px;
+  gap: 50px;
+}
+
+.call-to-action-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action-text {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.call-to-action-button {
+  align-self: center;
+  border: white solid;
+  border-width: 3px;
+  width: 100px;
+  height: 35px;
+}
